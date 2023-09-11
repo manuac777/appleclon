@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}/* Estilo para centrar el título h1 */
+#slogan {
+    text-align: center;
+}
+
+#slogan h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+
+/* Encabezado */
+#encabezado {
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+#slogan h1 {
+    font-size: 36px;
+    color: black;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Aside */
+aside {
+    background-color: #ccc;
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+}
+
+/* Sección principal */
+section {
+    background-color: #ccc;
+    width: 800px;
+    height: 400px;
+    float: right;
+    padding: 20px;
+}
+
+article {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
